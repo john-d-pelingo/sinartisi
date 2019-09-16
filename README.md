@@ -1,4 +1,4 @@
-[![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/john-d-pelingo/sinartisi/blob/master/LICENSE)
+[![MIT License][shield]][license]
 
 # sinartisi
 
@@ -17,5 +17,7 @@ Sinartisi (συνάρτηση) is a Greek word for `function`.
 
 ## License
 
-[MIT](https://github.com/john-d-pelingo/sinartisi/blob/master/LICENSE) &copy;
-2019-present
+[MIT][license] &copy; 2019-present
+
+[license]: https://github.com/john-d-pelingo/sinartisi/blob/master/LICENSE
+[shield]: https://img.shields.io/github/license/mashape/apistatus.svg
