@@ -2,6 +2,7 @@
 # Edit at https://www.gitignore.io/?templates=go
 
 ### App ###
+docs
 
 ### Go ###
 # Binaries for programs and plugins
