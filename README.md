@@ -1,4 +1,5 @@
 [![MIT License][shield-mit]][license] [![Build Status][shield-travis]][travis]
+[![CircleCI][shield-circle-ci]][circle-ci]
 
 # sinartisi
 
@@ -19,7 +20,10 @@ Sinartisi (συνάρτηση) is a Greek word for `function`.
 
 [MIT][license] &copy; 2019-present
 
+[circle-ci]: https://circleci.com/gh/john-d-pelingo/sinartisi
 [license]: https://github.com/john-d-pelingo/sinartisi/blob/master/LICENSE
+[shield-circle-ci]:
+  https://circleci.com/gh/john-d-pelingo/sinartisi.svg?style=svg
 [shield-mit]: https://img.shields.io/github/license/mashape/apistatus.svg
 [shield-travis]:
   https://travis-ci.org/john-d-pelingo/sinartisi.svg?branch=master
