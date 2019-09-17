@@ -5,9 +5,9 @@ go:
   - master
 
 install:
-  - go get -v .
+  - go get -v all
   - go get -v golang.org/x/lint/golint
-  - go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
+  - go get -v -u github.com/golangci/golangci-lint/cmd/golangci-lint
 
 script:
   - go vet -x ./...
