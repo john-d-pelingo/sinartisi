@@ -3,11 +3,19 @@
 # Check https://circleci.com/docs/2.0/language-go/ for more details
 version: 2
 
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test-1.11
+      - test-1.12
+      - test-1.13
+
 jobs:
-  build:
+  test-1.11: &test-template
     docker:
       # specify the version
-      - image: circleci/golang:1.13
+      - image: circleci/golang:1.11
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -29,3 +37,11 @@ jobs:
       - run: golint -set_exit_status ./...
       - run: golangci-lint run --enable-all
       - run: go test -v ./...
+  test-1.12:
+    <<: *test-template
+    docker:
+      - image: circleci/golang:1.12
+  test-1.13:
+    <<: *test-template
+    docker:
+      - image: circleci/golang:1.13
