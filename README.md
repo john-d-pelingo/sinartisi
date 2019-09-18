@@ -1,6 +1,6 @@
 [![MIT License][shield-mit]][license] [![Build Status][shield-travis]][travis]
 [![CircleCI][shield-circle-ci]][circle-ci]
-[![codecov][code-coverage]][shield-code-coverage]
+[![codecov][shield-code-coverage]][code-coverage]
 [![Go Report Card][shield-go-report-card]][go-report-card]
 [![Maintainability][shield-maintainability]][maintainability]
 
@@ -24,8 +24,7 @@ Sinartisi (συνάρτηση) is a Greek word for `function`.
 [MIT][license] &copy; 2019-present
 
 [circle-ci]: https://circleci.com/gh/john-d-pelingo/sinartisi
-[code-coverage]:
-  https://codecov.io/gh/john-d-pelingo/sinartisi/branch/master/graph/badge.svg
+[code-coverage]: https://codecov.io/gh/john-d-pelingo/sinartisi
 [go-report-card]:
   https://goreportcard.com/badge/github.com/john-d-pelingo/sinartisi
 [license]: https://github.com/john-d-pelingo/sinartisi/blob/master/LICENSE
@@ -33,7 +32,8 @@ Sinartisi (συνάρτηση) is a Greek word for `function`.
   https://codeclimate.com/github/john-d-pelingo/sinartisi/maintainability
 [shield-circle-ci]:
   https://circleci.com/gh/john-d-pelingo/sinartisi.svg?style=svg
-[shield-code-coverage]: https://codecov.io/gh/john-d-pelingo/sinartisi
+[shield-code-coverage]:
+  https://codecov.io/gh/john-d-pelingo/sinartisi/branch/master/graph/badge.svg
 [shield-go-report-card]:
   https://goreportcard.com/badge/github.com/john-d-pelingo/sinartisi
 [shield-maintainability]:
