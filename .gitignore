@@ -3,6 +3,7 @@
 
 ### App ###
 docs
+coverage.txt
 
 ### Go ###
 # Binaries for programs and plugins
