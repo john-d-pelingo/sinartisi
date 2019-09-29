@@ -7,7 +7,7 @@
 # sinartisi
 
 A bunch of helpful functions to get my [golang](https://golang.org/) with best
-practices going.
+practices going!
 
 Sinartisi (συνάρτηση) is a Greek word for `function`.
 
@@ -38,7 +38,7 @@ Sinartisi (συνάρτηση) is a Greek word for `function`.
   https://goreportcard.com/badge/github.com/john-d-pelingo/sinartisi
 [shield-maintainability]:
   https://api.codeclimate.com/v1/badges/74f7bcdee8e625088152/maintainability
-[shield-mit]: https://img.shields.io/github/license/mashape/apistatus.svg
+[shield-mit]: https://img.shields.io/badge/License-MIT-lavender.svg
 [shield-travis]:
   https://travis-ci.org/john-d-pelingo/sinartisi.svg?branch=master
 [travis]: https://travis-ci.org/john-d-pelingo/sinartisi
