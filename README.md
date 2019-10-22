@@ -1,4 +1,5 @@
-[![MIT License][shield-mit]][license] [![Build Status][shield-travis]][travis]
+[![MIT License][shield-mit]][license]
+[![Build Status][shield-travis-ci]][travis-ci]
 [![CircleCI][shield-circle-ci]][circle-ci]
 [![codecov][shield-code-coverage]][code-coverage]
 [![Go Report Card][shield-go-report-card]][go-report-card]
@@ -39,6 +40,6 @@ Sinartisi (συνάρτηση) is a Greek word for `function`.
 [shield-maintainability]:
   https://api.codeclimate.com/v1/badges/74f7bcdee8e625088152/maintainability
 [shield-mit]: https://img.shields.io/badge/License-MIT-lavender.svg
-[shield-travis]:
+[shield-travis-ci]:
   https://travis-ci.org/john-d-pelingo/sinartisi.svg?branch=master
-[travis]: https://travis-ci.org/john-d-pelingo/sinartisi
+[travis-ci]: https://travis-ci.org/john-d-pelingo/sinartisi
