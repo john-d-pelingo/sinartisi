@@ -11,7 +11,7 @@ type RGB struct {
 }
 
 // RGBColorNumber transforms the RGB struct into its corresponding number.
-func RGBColorNumber(rgb *RGB) int {
+func (rgb *RGB) RGBColorNumber() int {
 	return int(rgb.Red)*0x10000 + int(rgb.Green)*0x100 + int(rgb.Blue)
 }
 

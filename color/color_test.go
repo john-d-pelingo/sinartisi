@@ -19,7 +19,7 @@ func TestRGBColorNumber(t *testing.T) {
 	}
 
 	for _, pair := range tests {
-		got := RGBColorNumber(pair.input)
+		got := pair.input.RGBColorNumber()
 		want := pair.result
 
 		if want != got {
